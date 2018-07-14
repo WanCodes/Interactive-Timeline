@@ -1,0 +1,855 @@
+{
+	"events":[
+		{
+			"year":"1974",
+			"employees":"3 employees",
+			"asset":[{"type":"video", "url":"images/1974.jpg", "video_id":"5449365950001", "message":"Stuart Wheeler talks about why he set up IG"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"The Bretton Woods system of monetary management was dissolved in 1973, meaning that currencies are no longer pegged to the price of gold. Stuart Wheeler starts IG Investors Gold to enable people to speculate on its price, and the UK's first spread betting company is born"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"3 employees<br><br>Stuart Wheeler starts IG Investors Gold"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"Stuart Wheeler starts the business - in the top floor of his home in Chelsea"
+				}
+			]
+		},{
+			"year":"1975",
+			"employees":"3 employees",
+			"asset":[{"type":"image", "url":"images/1975.jpg", "message":"Gold"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We commence betting on gold in May"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"3 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1976",
+			"employees":"3 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We make a loss of just under &pound;3000 before tax"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add betting on more commodities"
+				},{
+					"title":"PEOPLE",
+					"text":"3 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1977",
+			"employees":"3 employees",
+			"asset":[{"type":"text", "message":"Profit before tax is &pound;1800"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;1800"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"3 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1978",
+			"employees":"4 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax rises to an impressive &pound;21,040"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"4 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1979",
+			"employees":"4 employees",
+			"asset":[],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax rises to an impressive &pound;63,708"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"4 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1980",
+			"employees":"6 employees",
+			"asset":[{"type":"image", "url":"images/1980.jpg", "message":"Sterling/dollar"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax shoots up to &pound;168,458 due to a significant increase in volume"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add FX betting on the sterling/dollar exchange rate"
+				},{
+					"title":"PEOPLE",
+					"text":"6 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1981",
+			"employees":"6 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is down to &pound;57,293 due to deferred taxation back on the agenda"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"6 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We move to an impressive new office at Grosvenor Gardens<br><br>We employ a marketing manager for the first time"
+				}
+			]
+		},{
+			"year":"1982",
+			"employees":"10 employees",
+			"asset":[{"type":"quote", "message":"Today, stock indices are half our business"},
+					{"type":"video", "url":"images/1982.jpg", "video_id":"5486802638001", "message":"Stuart on adding stock indices"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is up again to &pound;141,064"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add spread betting on stock indices"
+				},{
+					"title":"PEOPLE",
+					"text":"10 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1983",
+			"employees":"18 employees",
+			"asset":[{"type":"quote", "message":"The computer certainly had its teething problems and inevitably, for a time, caused rather more work than less <br><br><span style='font-size:12px; font-weight:bold; line-height:1.2; display:block'>The Earl of Birkenhead, <br>Chairman, 1983</span>"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is up to &pound;264,696 - described by our chairman as 'easily the best year we have ever had.'"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We buy our first computer"
+				},{
+					"title":"PEOPLE",
+					"text":"18 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1984",
+			"employees":"19 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;330,785<br><br>The first few months of trading on the FTSE 100 is extremely  disappointing"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add the new FTSE 100 to our offering"
+				},{
+					"title":"PEOPLE",
+					"text":"19 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1985",
+			"employees":"22 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;103,433. This is due to both taking on more senior staff, and some unsuccessful hedging with the Dow Jones"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"22 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1986",
+			"employees":"20 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;136,798<br><br>The 'big bang' on 27 October marks the deregulation of the securities market, causing a large increase in trading activity<br><br>We acquire Ladbroke Index, which marks a massive increase in our leisure-trading catchment"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"20 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1987",
+			"employees":"24 employees",
+			"asset":[{"type":"video", "url":"images/1987.jpg", "video_id":"5486789443001", "message":"Peter and Stuart on Black Monday"},
+					{"type":"quote", "message":"The crash very nearly saw the end of us"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is up to &pound;427,506 as of May, compared to &pound;136,798 the previous year. This is attributed to continuing interest in stock indices after the 'big bang' - and our acquisition of Ladbroke Index <br><br>In October, Black Monday marks a huge stock market crash"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"24 employees<br><br>10,000 clients"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1988",
+			"employees":"20 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is down to &pound;205,666. The crash of 1987 gave us bad debt, and a huge drop in trading volume<br><br>We're the first bookmaker to be accepted as a member of the Association of Futures and Brokers"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add bets on the level of the Halifax House Price Index and the Retail Price Index. These attract a lot of press interest, which helps us build volume"
+				},{
+					"title":"PEOPLE",
+					"text":"We drop to 20 employees"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1989",
+			"employees":"20 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;404,963"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"20 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1990",
+			"employees":"20 employees",
+			"asset":[],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax hits &pound;500,000 for the first time"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"Still very much in the leisure sphere, we offer a market on the number of goals scored in the World Cup"
+				},{
+					"title":"PEOPLE",
+					"text":"20 employees<br><br>We appoint our first marketing & sales director. Dealers take up marketing duties"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1991",
+			"employees":"23 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":""
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We introduce a new phone system, and software enabling dealers to put bets straight onto the computer. This automatically updates our net position in all markets and increases accuracy of hedging<br><br>We add bets on Japanese, German and French indices (Nikkei 225, DAX and CAC 40)"
+				},{
+					"title":"PEOPLE",
+					"text":"23 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1992",
+			"employees":"20 employees",
+			"asset":[{"type":"video", "url":"images/1992.jpg", "video_id":"5486804071001", "message":"Nat joins IG"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Black Wednesday - 16 September 1992. The British Conservative government is forced to withdraw sterling from the European Exchange Rate Mechanism (ERM), after it is unable to keep the pound above its agreed lower limit in the ERM"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"20 employees<br><br>Nat le Roux joins as director of the dealing desk"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1993",
+			"employees":"20 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We form IG Sport to offer speculative opportunities to sports enthusiasts. This is very much in the leisure sphere"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"20 employees"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1994",
+			"employees":"24 employees",
+			"asset":[{"type":"quote", "message":"It was a strange way to begin"},
+					{"type":"video", "url":"images/1994.jpg", "video_id":"5449365951001", "message":"Peter Hetherington joins"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;800,958<br><br>IG Sport takes off, and two thirds of trades are currently in sports betting"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"24 employees<br><br>Peter Hetherington joins IG as a graduate trainee<br><br>We're now up to four sports dealers"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1995",
+			"employees":"22 employees",
+			"asset":[{"type":"text", "message":"We become the first UK company to allow spread betting on individual shares"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;663,878<br><br>We are committed to the expansion of our sports betting business"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We become the first UK company to allow spread betting on individual shares"
+				},{
+					"title":"PEOPLE",
+					"text":"22 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1996",
+			"employees":"26 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;1,065,361 - above &pound;1 million for the first time<br><br>We and the other participants form The Sports Spread Betting Association. Two of our three competitors, City Index and Sporting Index, announce a merger, reducing our competition in sports betting"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We open our first non-betting operation, in FX"
+				},{
+					"title":"PEOPLE",
+					"text":"26 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1997",
+			"employees":"24 employees",
+			"asset":[{"type":"quote", "message":"You thought it couldn't possibly work. But it worked like all hell"},
+					{"type":"video", "url":"images/1990.jpg", "video_id":"5449372011001", "message":"John on our early marketing"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Ladbrokes enter the market, one year after William Hill. Neither is considered a threat to our sports betting division"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"Political betting brings profit and publicity. We also add betting on building society fluctuations<br><br>Financial betting is now a 24-hour operation"
+				},{
+					"title":"PEOPLE",
+					"text":"24 employees<br><br>Marketing is expanded from just advertising, to mailing clients with news about financial events and prices (and competitions for sports)"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1998",
+			"employees":"46 employees",
+			"asset":[{"type":"video", "url":"images/1998.jpg", "video_id":"5486802632001", "message":"John on launching online trading"},
+					{"type":"quote", "message":"It was hard to get anyone to take online dealing that seriously"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We buy Ladbrokes Sporting Spreads sports division, bringing a sharp increase in employee numbers"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We become the first company to launch an online dealing platform for financial spread betting<br><br>We assess the potential impact of Y2K and replace all personal computers",
+					"lightbox":{"url":"history/1998.jpg", "text":"See what our site looked like in 1998"}
+				},{
+					"title":"PEOPLE",
+					"text":"46 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"1999",
+			"employees":"60 employees",
+			"asset":[{"type":"video", "url":"images/1999_tim.jpg", "video_id":"5463857931001", "message":"Tim on joining"},
+					{"type":"video", "url":"images/1999.jpg", "video_id":"5486807573001", "message":"Peter on improving our online platform"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;3.6m - our most profitable year so far<br><br>The soon-to-burst tech bubble creates an interest in online trading among the general public"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"Unlike our competitors, we have a site that allows clients to transact business over the internet without having to call a dealer. However, there is much scope to improve here (some brokerage firms have market caps of billions)"
+				},{
+					"title":"PEOPLE",
+					"text":"60 employees<br><br>Tim Howkins joins as Chief Financial Officer, having previously been in charge of our audit at Rees Pollock. Peter Hetherington becomes head of financial dealing"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We move to Blackfriars Road, which doubles our space to 25,000sq feet. The rent? &pound;12 per square foot. For a modern-day comparison, the rent on an impressive office like London's 'cheese grater' is in the region of &pound;85 per square foot"
+				}
+			]
+		},{
+			"year":"2000",
+			"employees":"94 employees",
+			"asset":[{"type":"video", "url":"images/2000.jpg", "video_id":"5449380563001", "message":"Stuart on our first LSE listing"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We're admitted to the Official List of the London Stock Exchange in our first IPO<br><br>We form the IG Group holding company. IG Markets is formed to conduct non-betting business<br><br>Profit before tax exceeds &pound;10m for the first time"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We now offer 14,000 shares, including the top 350 shares in the UK. Shares have overtaken the FTSE 100 as the biggest part of our business<br><br>We launch contracts for difference (CFDs) on individual shares<br><br>We agree to promote sports betting online with Coral Internet Ltd"
+				},{
+					"title":"PEOPLE",
+					"text":"94 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2001",
+			"employees":"139 employees",
+			"asset":[],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We acquire William Hill Index. We have increasing competition in sports spread betting<br><br>We see rapid increases in CFDs and FX, and resolve to invest &pound;1m in the internet over the next year<br><br>Terror attacks in the US (9/11) stun the world and cause major volatility"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"We now have well over 100 employees: 139, to be exact<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2002",
+			"employees":"200 employees",
+			"asset":[],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"The trial of bigger hedging limits causes huge volatility in earnings, and we issue a profit warning"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We incorporate third-generation technology into our dealing platform, enabling clients to trade live-streamed prices through a browser"
+				},{
+					"title":"PEOPLE",
+					"text":"200 employees<br><br>Stuart Wheeler announces his intention to step down, handing over to Nat le Roux"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"IG Markets Australia becomes the country's first CFD provider"
+				}
+			]
+		},{
+			"year":"2003",
+			"employees":"200 employees",
+			"asset":[{"type":"video", "url":"images/2003_iraq.jpg", "video_id":"5542584729001", "message":"Iraq documentary: Gambling on the War"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"IG delists from the stock exchange, bought out by senior management and CVC Capital Partners<br><br>The war in Iraq begins and IG is the focus of 'Gambling on the War', a documentary examining the impact on financial markets and spread betting behaviour"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch our first-ever online application form<br><br>We release our first mobile trading app, featuring live streaming prices. It's only available on Sony Erikson P800 devices, so we partner with Orange to begin selling P800s to our clients"
+				},{
+					"title":"PEOPLE",
+					"text":"200 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2004",
+			"employees":"243 employees",
+			"asset":[{"type":"video", "url":"images/2004_tim.jpg", "video_id":"5486836828001", "message":"Tim on the evolution of our platforms"},{"type":"video", "url":"images/2004.jpg", "video_id":"5503857001001", "message":"Jonathan becomes chairman"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Australian trading volume doubles in a year"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch L2 Dealer to provide direct market access to our more advanced traders"
+				},{
+					"title":"PEOPLE",
+					"text":"243 employees<br><br>Jonathan Davie becomes Chairman"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2005",
+			"employees":"243 employees",
+			"asset":[
+				{"type":"video", "url":"images/2004.jpg", "video_id":"5494145666001", "message":"Jonathan on the company relisting on LSE"},{"type":"video", "url":"images/2005_bridget.jpg", "video_id":"5486804070001", "message":"Peter and Bridget on championing the client"}
+			],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"IG Group returns to the LSE, and becomes a member of the FTSE 250 in June<br><br>We launch our white label service<br><br>Australian turnover is now &pound;3.8m, larger than the whole of IG in '96. It has 20 people, and handles the night shift for the UK"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"Over 85% of deals are now transacted online, against 20% at the beginning of '03. This marks our transformation into a true internet business<br><br>Average deal time is now under 1 second",
+					"lightbox":{"url":"history/2005.jpg", "text":"See what our site looked like in 2005"}
+				},{
+					"title":"PEOPLE",
+					"text":"243 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2006",
+			"employees":"312 employees",
+			"asset":[],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"IG Sport becomes Extrabet.com, with 9000 clients<br><br>We introduce 'take it' to our sports spread betting business, becoming the very first provider to allow clients to take their winnings in-play"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"",
+					"lightbox":{"url":"history/2006.jpg", "text":"See what our site looked like in 2006"}
+				},{
+					"title":"PEOPLE",
+					"text":"312 employees<br><br>Tim Howkins takes over from Nat le Roux as CEO"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We open new offices in Germany and Singapore"
+				}
+			]
+		},{
+			"year":"2007",
+			"employees":"312 employees",
+			"asset":[{"type":"video", "url":"images/2007_MIFID.jpg", "video_id":"5449366386001", "message":"Bridget on MiFID opening up European opportunities"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We purchase US-based online derivatives firm HedgeStreet, which we rename Nadex in 2009<br><br>MiFID allows us to open new European offices<br><br>We launch TradeSense, our education programme for new clients"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch our browser-based platform on IGforex.com. The platform is the first not to require a plug-in and becomes the precursor to PureDeal<br><br>To support our new European offices, we launch all our platforms in western European languages"
+				},{
+					"title":"PEOPLE",
+					"text":"312 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We open new offices in Spain and France, and also our first office in Bangalore which becomes an IT hub"
+				}
+			]
+		},{
+			"year":"2008",
+			"employees":"551 employees",
+			"asset":[{"type":"video", "url":"images/2014.jpg", "video_id":"5486833529001", "message":"John on developing our first ever app"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"The credit crunch: during October we see extreme volatility, including the collapse in share price of many banking stocks. This results in a high incidence of doubtful debts within our client base. Close-out monitor becomes a priority<br><br>We now have 300 introducing brokers and agents"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch our spread betting app for iPhone, as well as trailing stops, DealThru charts and Price alerts<br><br>We buy FXOnline, a leading provider of financial derivatives in Japan that boasts some cutting-edge platform capability - like price alerts - which we're able to incorporate into our own platforms"
+				},{
+					"title":"PEOPLE",
+					"text":"551 employees + record levels of client recruitment"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We outgrow our small London office and open a second premises (also in Blackfriars) for our UK IT development teams<br><br>We open an office in Italy"
+				}
+			]
+		},{
+			"year":"2009",
+			"employees":"761 employees",
+			"asset":[{"type":"video", "url":"images/2009.jpg", "video_id":"5486802637001", "message":"Tim McDermott on Nadex"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We're now the primary CFD provider in Australia<br><br>For the year as a whole our doubtful debt charge was &pound;18.2m, with over 80% of this charge arising in the first half"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"IG Markets launches browser-based DMA trading"
+				},{
+					"title":"PEOPLE",
+					"text":"761 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"Nadex launches in the US<br><br>We open offices in Sweden and Luxembourg, a total of 10 offices worldwide"
+				}
+			]
+		},{
+			"year":"2010",
+			"employees":"828 employees",
+			"asset":[{"type":"image", "url":"images/2010.jpg"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax: &pound;157.6m<br><br>Nadex now offers exchange-traded options and futures on forex, equity indices and commodities, as well as some 'event' markets such as economic indicators"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"Our CFD iPhone app is launched<br><br>We introduce Autochartist. And, as a result of the credit crunch, close-out monitor (COM) and tiered margining"
+				},{
+					"title":"PEOPLE",
+					"text":"828 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We acquire the Ideal CFDs business in South Africa<br><br>New London headquarters at Cannon Bridge House give us 50% more space and allows us to bring together our two Blackfriars offices"
+				}
+			]
+		},{
+			"year":"2011",
+			"employees":"952 employees",
+			"asset":[{"type":"video", "url":"images/2011.jpg", "video_id":"5503856997001", "message":"Peter and Jonathan on Sports"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Our business has begun moving away from association with sports and betting, becoming purely a financial trading company. So we close down our sports business and sell some of the assets<br><br>We sponsor Team Sky, a British professional Cycling Team aiming to win the Tour de France"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"iPhone app expanded to include DMA, and Android and BlackBerry apps are launched",
+					"lightbox":{"url":"history/2011.jpg", "text":"See what our site looked like in 2011"}
+				},{
+					"title":"PEOPLE",
+					"text":"952 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We open our Netherlands office"
+				}
+			]
+		},{
+			"year":"2012",
+			"employees":"960 employees",
+			"asset":[{"type":"text", "message":"We launch IG.com"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"IG Index and IG Markets begin trading as IG<br><br>We state our aim of becoming the default choice for active traders around the world<br><br>Bradley Wiggins wins the Tour de France - in an IG branded jersey"
+				},{
+					"title":"TECHNOLOGY",
+					"text":""
+				},{
+					"title":"PEOPLE",
+					"text":"960 employees<br><br>Our previous values are launched: passion for progress, transparency in dealing, hallmark quality and meritocratic opportunity"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We open an office in Dublin"
+				}
+			]
+		},{
+			"year":"2013",
+			"employees":"991 employees",
+			"asset":[{"type":"", "url":"", "message":""}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"We launch IG.com, bringing together our spread betting and CFD offerings"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We introduce FX trading via the MT4 platform<br><br>First online forex and CFD broker to offer bitcoin trading",
+					"lightbox":{"url":"history/2013.jpg", "text":"See what our site looked like in 2013"}
+				},{
+					"title":"PEOPLE",
+					"text":"991 employees<br><br>"
+				},{
+					"title":"GEOGRAPHY",
+					"text":""
+				}
+			]
+		},{
+			"year":"2014",
+			"employees":"1025 employees",
+			"asset":[{"type":"video", "url":"images/2014_40th.jpg", "video_id":"5457367001001", "message":"IG rings the LSE bell to celebrate 40 years"},{"type":"video", "url":"images/2014_jon_andy.jpg", "video_id":"5503878162001", "message":"Jonathan on stepping down as chairman, Andy on becoming chairman"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;194.7m<br><br>IG begins sponsoring Harlequins Rugby Club and in particular Big Game, the Christmas fixture at Twickenham Stadium"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We add execution-only share dealing<br><br>We make our debut live-TV broadcast<br><br>We host IG Codefest, an internal hackathon involving teams from London, Bangalore and Minsk",
+					"lightbox":{"url":"history/2014.jpg", "text":"See what our site looked like in 2014"}
+				},{
+					"title":"PEOPLE",
+					"text":"1025 employees<br>67% are in the UK<br>33% are global<br><br>Andy Green becomes chairman of the Group (October 2014), Jonathan Davie leaves<br><br>We celebrate our 40th anniversary"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We open IG Bank in Switzerland, demonstrating a big shift away from leisure products<br><br>We open an office in Minsk, Belarus"
+				}
+			]
+		},{
+			"year":"2015",
+			"employees":"1256 employees",
+			"asset":[{"type":"video", "url":"images/2015_andy.jpg", "video_id":"5493958273001", "message":"Andy on SNB and CEO change"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;193.2m <br><br>The Swiss Franc peg removal costs us &pound;27m"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch Sunday trading, and design the first trading app for Apple Watch<br><br>We launch IG Academy - a dedicated app teaching people about markets and trading"
+				},{
+					"title":"PEOPLE",
+					"text":"1256 employees<br>61% are in the UK<br>39% are global<br><br>Tim Howkins leaves, Peter Hetherington is appointed CEO in December<br><br>IG is restructured into pillars: client, delivery, returns, people and control"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"Office opens in Dubai. Minsk operations moved to Krakow"
+				}
+			]
+		},{
+			"year":"2016",
+			"employees":"1386 employees",
+			"asset":[{"type":"video", "url":"images/2016_andy.jpg", "video_id":"5493943574001", "message":"Andy on buying DFX"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":"Profit before tax is &pound;207.9m<br><br>Advertising leveraged products is banned in France, and the UK's FCA announces a consultation on leveraged trading<br><br>We buy DailyFX, a forex focused news and education website with over 1.2m visitors per month"
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We create limited-risk accounts to prevent clients losing more than they can afford<br><br>We launch the new IG Trading platform for spread bettors<br><br>We provide new ways for clients to deal in large sizes"
+				},{
+					"title":"PEOPLE",
+					"text":"1386 employees<br>59% are in the UK<br>41% are global<br><br>Chris Hill leaves, Paul Mainwaring appointed as CFO<br><br>The acquisition of DailyFX brings us over 30 new writers and analysts"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"We close our offices in Norway and Netherlands<br><br>We open a representative office in Shanghai<br><br>Our DFX writers operate across New York, San Francisco, Chicago, Dallas, Shenzhen, London, Singapore and Dusseldorf"
+				}
+			]
+		},{
+			"year":"2017",
+			"employees":"1497 employees",
+			"asset":[{"type":"quote","message":"It's a journey - and a part of the evolution we are going through"}, {"type":"video", "url":"images/2017_peter_andy.jpg", "video_id":"5503861514001", "message":"Peter and Andy on investments"}],
+			"articles":[
+				{
+					"title":"ECONOMIC",
+					"text":""
+				},{
+					"title":"TECHNOLOGY",
+					"text":"We launch IG Smart Portfolios - our first move into the managed investments space<br><br>Mobile overtakes desktop as the number one method of trading"
+				},{
+					"title":"PEOPLE",
+					"text":"1497 employees<br>48% are in the UK<br>52% are global<br>451 (around 30%) currently own IG shares under our employee share plan<br><br>152,000 clients around the globe"
+				},{
+					"title":"GEOGRAPHY",
+					"text":"New purpose, vision and values launched"
+				}
+			]
+		}
+	]
+}

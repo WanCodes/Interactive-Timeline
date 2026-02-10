@@ -1,5 +1,7 @@
 # Interactive Timeline
 
+<img width="1728" height="909" alt="Screenshot 2026-02-10 at 11 06 47" src="https://github.com/user-attachments/assets/592f78d3-55e6-4a6e-bb67-ccd03511a911" />
+
 A horizontal, draggable interactive timeline that presents company history year by year. Users can scroll through decades of events, watch embedded videos, view images and quotes, and jump to specific years via a sidebar.
 
 ## What This Project Contains

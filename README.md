@@ -1,119 +1,103 @@
 # Interactive Timeline
 
-<img width="1728" height="909" alt="Screenshot 2026-02-10 at 11 06 47" src="https://github.com/user-attachments/assets/592f78d3-55e6-4a6e-bb67-ccd03511a911" />
+**Wan Yau** · Senior Full Stack Developer, London · [WanCodes](https://github.com/WanCodes)
 
-A horizontal, draggable interactive timeline that presents company history year by year. Users can scroll through decades of events, watch embedded videos, view images and quotes, and jump to specific years via a sidebar.
+A responsive interactive timeline of IG Group’s company history. The page loads every year from JSON, then lets a visitor drag through the story, jump to a year, play filmed interviews, and open historical site screenshots. The repository description points at IG Group’s public history page: [iggroup.com/about-ig-group/our-history](http://www.iggroup.com/about-ig-group/our-history).
 
-## What This Project Contains
+<img width="1728" height="909" alt="Interactive timeline showing IG Group history, with the year rail, drag strip, and topic rows" src="https://github.com/user-attachments/assets/592f78d3-55e6-4a6e-bb67-ccd03511a911" />
 
-### Overview
+## Overview
 
-This is a **single-page web application** that displays a chronological timeline (1974–2017 in the default data). Each year is a “frame” with:
+This is a single static page. `main.js` defines a `Timeline` class that fetches `data.json` with `XMLHttpRequest` and builds one frame per event. The bundled story runs from **1974 to 2017** (44 years): founding, headcount, products, offices, and leadership, told in four rows — Economic, Technology, People, and Geography.
 
-- **Assets**: Text blocks, quotes, images, or video thumbnails
-- **Articles**: Categorized content (Economic, Technology, People, Geography) with optional lightbox links
-- **Navigation**: Sidebar year list, left/right arrows, and drag-to-scroll
+There is no install step and no build. The HTML, CSS, JSON, images, and `dragdealer.js` are the application.
 
-Content is **data-driven**: all events, copy, and media references come from `data.json`, so you can adapt the timeline to any story by editing the JSON.
+## Features
 
-### Features
+- **Drag to scroll.** The strip is a [Dragdealer](https://github.com/skidding/dragdealer) 0.9.8 slider (`steps`, `loose: true`, `speed: 0.1`). `bg.jpg` shifts with the drag for a light parallax effect.
+- **Year rail.** The left column lists every year. Click a year, or the year label on a frame, to jump there. The active year scales up and turns `#DA291C`. Moving the pointer over the rail scrolls the list; otherwise the rail follows the timeline.
+- **Step arrows.** Left and right arrows move one frame. The left arrow is hidden on the first frame and the right arrow is hidden on the last.
+- **Mixed media on each year.** An event can carry zero, one, or two assets. Supported types are `text`, `quote`, `image`, and `video`. Two assets are stacked; a single asset is staggered vertically so neighbouring years do not line up in a flat row. An empty `type` is skipped.
+- **Brightcove video.** A video asset shows a thumbnail and caption. Hover reveals the play icon. A click that is not part of a drag opens the overlay, loads that `video_id` through the Brightcove catalog API, and plays it. Closing the overlay pauses playback.
+- **Topic rows and lightbox.** Every year has four article texts, in Economic / Technology / People / Geography order. The row labels are the `topics.png` graphic; the `title` field is stored in JSON and is not written into the page. Six years add a lightbox link that opens a full-page screenshot from `history/` (1998, 2005, 2006, 2011, 2013, 2014).
+- **Width-aware layout.** Frames stay 250px wide. On resize, the number of drag steps shrinks as more of the strip fits in the viewport, and Dragdealer is asked to reflow. Lightbox images use a 1200px background size, or the viewport width when that is smaller.
 
-- **Draggable timeline** – Scroll horizontally by dragging the timeline (powered by [Dragdealer](https://github.com/skidding/dragdealer))
-- **Year navigation** – Click a year in the left sidebar to jump to that year; current year is highlighted (red)
-- **Arrow controls** – Left/right arrows to move one frame at a time
-- **Video playback** – Click video thumbnails to open an overlay and play [Brightcove](https://www.brightcove.com/) videos
-- **Lightbox** – Article links can open full-screen image lightboxes (e.g. historical site screenshots)
-- **Responsive layout** – Timeline width and number of visible frames adjust to viewport size
-- **Animated UI** – [GSAP TweenMax](https://greensock.com/tweenmax/) used for transitions and parallax-style background movement
+## Tech stack
 
-### Tech Stack
+| Layer | What the page uses |
+| --- | --- |
+| Markup | HTML5 (`index.html`), with `X-UA-Compatible` set to `IE=10,Edge` |
+| Style | Custom CSS (`main.css`). Avenir Next (weights 300–700) is loaded from fonts.net and `a.c-dn.net`, with Arial / Helvetica as the fallback |
+| Behaviour | jQuery 3.2.1 (Google CDN) and a custom `Timeline` prototype in `main.js` |
+| Motion | GSAP TweenMax 1.18.0 (cdnjs) for the year highlight, nav scroll, and video overlay |
+| Drag | Dragdealer.js 0.9.8, bundled. The file header is MIT |
+| Video | Brightcove player script and Video.js, account `2830693144001`, player `8d914a8e-0772-4b65-b040-afb00fc98328` |
+| Content | `data.json`, fetched at runtime |
 
-| Layer      | Technology |
-|-----------|------------|
-| Markup    | HTML5      |
-| Styling   | CSS3 (custom, Avenir Next fonts) |
-| Logic     | JavaScript (jQuery 3.x, custom `Timeline` class) |
-| Animation | GSAP TweenMax 1.18 |
-| Slider    | Dragdealer.js (custom/bundled) |
-| Video     | Brightcove Video.js (loaded from CDN) |
+jQuery, TweenMax, the Brightcove player, and the webfonts are loaded from those CDNs, so the page needs a network connection for the full experience.
 
-### Project Structure
+## Project structure
 
 ```
 Interactive-Timeline/
-├── index.html          # Main page and layout
-├── main.css            # Styles (layout, timeline, nav, video, lightbox)
-├── main.js             # Timeline logic: load data, build DOM, drag/nav/video/lightbox
-├── data.json           # Timeline content (years, assets, articles)
-├── dragdealer.js       # Horizontal drag/slider library
-├── bg.jpg              # Repeating background for timeline strip
-├── close_btn.png       # Close button for video/lightbox
-├── play_icon.png       # Overlay on video thumbnails
-├── quote_icon.png      # Quote styling asset
-├── red_arrow.png       # Divider/indicator arrow
-├── topics.png          # Sidebar “topics” graphic
-├── images/             # Year-specific images (thumbnails, assets)
-└── history/            # Images used in lightbox (e.g. historical screenshots)
+├── index.html        # Page shell, Brightcove player, script tags
+├── main.css          # Layout, type, nav, video overlay, lightbox
+├── main.js           # Load JSON, build frames, drag, nav, video, lightbox
+├── data.json         # 44 events, 1974–2017
+├── dragdealer.js     # Dragdealer 0.9.8
+├── bg.jpg            # Repeating strip background
+├── topics.png        # Economic / Technology / People / Geography labels
+├── play_icon.png     # Video hover icon
+├── quote_icon.png    # Quote mark
+├── red_arrow.png     # Marker under the year rail
+├── close_btn.png     # Overlay close control
+├── images/           # Thumbnails and stills referenced by data.json
+└── history/          # Lightbox screenshots (six are linked; 2003, 2007, 2016, and 2017 are in the folder and unused)
 ```
 
-### Data Format (`data.json`)
+## Content model
 
-The timeline is driven by a single JSON object:
+`data.json` is one object with an `events` array. Each event looks like this (1974, shortened):
 
 ```json
 {
-  "events": [
+  "year": "1974",
+  "employees": "3 employees",
+  "asset": [
     {
-      "year": "1974",
-      "employees": "3 employees",
-      "asset": [
-        {
-          "type": "video",
-          "url": "images/1974.jpg",
-          "video_id": "5449365950001",
-          "message": "Caption text"
-        }
-      ],
-      "articles": [
-        {
-          "title": "ECONOMIC",
-          "text": "Article body HTML...",
-          "lightbox": { "url": "history/1998.jpg", "text": "Link text" }
-        }
-      ]
+      "type": "video",
+      "url": "images/1974.jpg",
+      "video_id": "5449365950001",
+      "message": "Stuart Wheeler talks about why he set up IG"
     }
+  ],
+  "articles": [
+    { "title": "ECONOMIC", "text": "..." },
+    { "title": "TECHNOLOGY", "text": "" },
+    { "title": "PEOPLE", "text": "3 employees<br><br>Stuart Wheeler starts IG Investors Gold" },
+    { "title": "GEOGRAPHY", "text": "..." }
   ]
 }
 ```
 
-- **`asset`** types: `"text"` (message), `"quote"` (message), `"video"` (url, video_id, message), `"image"` (url).
-- **`articles`**: Each has `title` and `text`; optional `lightbox` adds a clickable link that opens the image in the lightbox.
+- **`asset`** — `text` uses `message` (HTML is allowed). `quote` uses `message`. `image` uses `url`. `video` uses `url` (thumbnail), `video_id`, and `message` (caption). A blank `type` renders nothing.
+- **`articles`** — four entries, in the order above. `text` may contain HTML such as `<br>` and `&pound;`. An optional `lightbox` object (`url`, `text`) appends a link under that row.
+- **`employees`** — present on every event. `main.js` does not read it. Headcount that appears on screen is the copy inside the People article.
 
-Videos are played via Brightcove; `video_id` (and the Brightcove account/player in `index.html`) must match your Brightcove setup if you use your own account.
+To point video at another Brightcove account, change `data-account`, `data-player`, and the player script URL in `index.html`, and supply matching `video_id` values in `data.json`.
 
-### How to Run
+## Run locally
 
-1. **Local server (recommended)** – Many features (e.g. loading `data.json`) work best over HTTP:
-   ```bash
-   # Python 3
-   python3 -m http.server 8000
-   # Then open http://localhost:8000
-   ```
-   Or use any static server (e.g. Node `serve`, VS Code “Live Server”) pointed at the project folder.
+Serve the folder over HTTP. The timeline requests `data.json` with `XMLHttpRequest`, which browsers block from a `file://` URL.
 
-2. **Open `index.html` directly** – May work in some browsers for basic viewing, but JSON loading can be blocked by CORS/file protocol restrictions.
+```bash
+python3 -m http.server 8000
+```
 
-### Browser Support
+Open [http://localhost:8000](http://localhost:8000). Any other static server pointed at this directory works the same way. Nothing is compiled.
 
-- Built for modern browsers (ES5-style JS, jQuery, GSAP).
-- `index.html` includes `X-UA-Compatible` for IE=10,Edge; full support depends on Dragdealer, GSAP, and Brightcove compatibility with older browsers.
+## Notes
 
-### Customization
+The markup asks for IE 10 and Edge document mode. What actually runs depends on jQuery 3.2.1, GSAP 1.18, Dragdealer 0.9.8, and the Brightcove player.
 
-- **Content**: Edit `data.json` to change years, copy, assets, and lightbox links.
-- **Videos**: Replace Brightcove account/player IDs in `index.html` and use your own `video_id` values in `data.json`.
-- **Look and feel**: Adjust `main.css` (colors, fonts, sizes) and swap images in `images/` and `history/` as needed.
-
-### License
-
-No license file is included in the repo; assume all rights reserved unless stated otherwise.
+This repository does not include a license file. `dragdealer.js` keeps its own MIT notice in the file header.
